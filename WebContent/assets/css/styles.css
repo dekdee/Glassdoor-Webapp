@@ -292,9 +292,8 @@ blockquote {
 .header h1.logo {
   margin-top: 0;
   margin-bottom: 0;
-  text-transform: uppercase;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 35px;
   max-height: 50px;
 }
 .header h1.logo a:hover {
@@ -472,6 +471,19 @@ blockquote {
   vertical-align: middle;
   width: 380px;
 }
+.recommand {
+  background: rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.recommand a {
+  color:#fff;
+}
+
+.recommand a:hover {
+  color: #6dbd63;
+}
+
 /* ======= Modal ======= */
 .modal-dialog {
   width: 760px;
@@ -546,7 +558,7 @@ blockquote {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 620px;
+  min-height: 450px;
 }
 .promo .intro {
   color: #fff;
@@ -573,7 +585,6 @@ blockquote {
   width: 100%;
 }
 .promo .signup {
-  background: rgba(0, 0, 0, 0.2);
   padding: 30px 0;
   padding-bottom: 45px;
   color: #fff;
@@ -588,6 +599,10 @@ blockquote {
   color: #fff;
   font-size: 16px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.promo .recommand {
+  color: #fff;
 }
 .promo .social {
   background: #6dbd63;
@@ -649,7 +664,7 @@ blockquote {
 }
 /* ======= Why Section ======= */
 .why {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .why .title {
   font-weight: bold;
@@ -1442,12 +1457,16 @@ blockquote {
   .promo .intro .summary {
     font-size: 18px;
   }
+  
+  
   .signup .signup-form .form-group {
-    width: 180px;
+    width: 100px;
   }
   .signup .signup-form .form-control {
     font-size: 13px;
+    width: 50px;
   }
+  
   .why .benefits .item .icon .fa {
     margin-bottom: 30px;
   }
