@@ -104,20 +104,44 @@
 			<!--//intro-->
 
 			<div class="signup">
-				
 				<div class="container text-center">
 					<form class="signup-form">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Job Title, Keywords, or Company">
-						</div>
 						&nbsp;&nbsp;&nbsp;
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Location">
-						</div>
-						&nbsp;&nbsp;&nbsp;
-						<button type="submit" class="btn btn-cta btn-cta-primary">Search</button>
+						<div class="row">
+						  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+						    <div class="form-group">
+						      <input type="text" class="form-control" placeholder="Job Title, Keywords, or Company">
+						    </div><!-- /input-group -->
+						  </div><!-- /.col-lg-4 -->
+				
+						  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+						    <div class="form-group">
+						      <input type="text" class="form-control" placeholder="Location">
+						    </div><!-- /input-group -->
+						  </div><!-- /.col-lg-4 -->
+						  
+						  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+						  	<div class="col-lg-4 btn-group">
+						  		<button type="submit" class="btn btn-cta btn-cta-primary">Search</button>
+						  	</div>
+						  	<div class="col-lg-8 btn-group">
+						  		<button type="submit" class="btn btn-cta btn-cta-primary">Show Nearby Jobs</button>
+						  	</div>
+						  </div><!-- /.col-lg-4 -->
+						  
+						  </div><!-- /.row -->
+						  
+						  
+						 
+						
+						
+						
+						
 					</form>
-					<!--//signup-form-->				
+					<!--//signup-form-->	
+					
+					
+							
 				</div>
 				<!--//contianer-->
 				<br /> <br />

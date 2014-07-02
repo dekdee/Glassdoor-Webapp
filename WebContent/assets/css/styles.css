@@ -1457,14 +1457,11 @@ blockquote {
   .promo .intro .summary {
     font-size: 18px;
   }
-  
-  
   .signup .signup-form .form-group {
-    width: 100px;
+    width: 280px;
   }
   .signup .signup-form .form-control {
     font-size: 13px;
-    width: 50px;
   }
   
   .why .benefits .item .icon .fa {
