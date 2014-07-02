@@ -35,7 +35,7 @@
         <header id="header" class="header">
 			<div class="container">
 				<h1 class="logo pull-left">
-					<a href="index.html"> 
+					<a href="index.jsp"> 
 						<img src = "assets/images/companies/glassdoor.png">
 						<span class="logo-title">glassdoor</span>
 					</a>
@@ -54,7 +54,7 @@
 					<!--//navbar-header-->
 					<div class="navbar-collapse collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li class="nav-item"><a href="index.html">Jobs</a></li>
+							<li class="nav-item"><a href="index.jsp">Jobs</a></li>
 							<li class="nav-item"><a href="tour.html">Companies</a></li>
 							<li class="nav-item"><a href="pricing.html">Salaries</a></li>
 							<li class="nav-item"><a href="blog.html">Interviews</a></li>
