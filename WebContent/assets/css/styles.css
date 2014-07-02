@@ -303,6 +303,12 @@ blockquote {
   vertical-align: middle;
   line-height: 1.6;
 }
+.header h1.logo a img {
+	background-color:red;
+	height:50px;
+	width:50px;
+}
+
 .header .main-nav .navbar-toggle {
   margin-right: 0;
 }
@@ -669,7 +675,7 @@ blockquote {
 .why .title {
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   font-size: 28px;
 }
 .why .intro {
@@ -682,7 +688,7 @@ blockquote {
   padding: 60px 0;
 }
 .why .benefits .item {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -690,11 +696,16 @@ blockquote {
 }
 .why .benefits .item .title {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 15px;
   color: #6dbd63;
+}
+
+.why .quote-box .title {
+  font-size: 22px;
 }
 .why .benefits .item .desc {
   color: #666666;
+  font-size: 14px;
 }
 .why .benefits .item .icon {
   float: left;
@@ -708,13 +719,13 @@ blockquote {
   color: #999999;
 }
 .why .benefits .item.last {
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 .why .testimonials {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .why .testimonials .item {
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 .why .testimonials .item.last {
   margin-bottom: 0;
@@ -722,7 +733,6 @@ blockquote {
 .why .testimonials .item .quote-box {
   background: #f5f5f5;
   padding: 30px;
-  padding-bottom: 15px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -732,7 +742,7 @@ blockquote {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   position: relative;
-  margin-bottom: 30px;
+  
 }
 .why .testimonials .item .quote-box .fa {
   color: #9fd499;
@@ -757,7 +767,7 @@ blockquote {
 .why .testimonials .item .quote {
   border: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   color: #666666;
   margin-bottom: 15px;
 }
@@ -1102,11 +1112,31 @@ blockquote {
 .blog .meta .post-comments-link .fa {
   margin-right: 5px;
 }
+.blog .jobsearch {
+  background-color: #f5f5f5;
+  padding: 0 200px;
+  margin-bottom: 40px;
+}
+.refine-search .title-green {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  font-weight: normal;
+  color: #6dbd63;
+	
+}
+.refine-search button  {
+  font-size: 12px;
+}
+.refine-search li a {
+  font-size: 12px;
+}
+
 .blog-sidebar .widget {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .blog-sidebar .widget .title {
-  font-size: 22px;
+  font-size: 15px;
   margin-bottom: 15px;
   margin-top: 0;
   font-weight: normal;
@@ -1140,7 +1170,7 @@ blockquote {
   height: 38px;
 }
 .blog-sidebar .search-blog-form .btn {
-  padding: 6px 12px;
+  padding: 6px 0px;
 }
 .blog-sidebar .search-blog-form .btn .fa {
   margin-right: 0;
@@ -1148,8 +1178,17 @@ blockquote {
 .post {
   margin-bottom: 60px;
 }
+
 .post .content .post-title {
   font-size: 22px;
+}
+.post .content .digest {
+  font-size: 15px;
+  color:#969494;
+}
+.post .content .location-data {
+  font-size: 15px;
+  color:#666666;
 }
 .post .content .post-title a {
   color: #444444;
@@ -1295,7 +1334,7 @@ blockquote {
   color: #999999;
 }
 #map {
-  height: 420px;
+  height: 400px;
   margin-bottom: 0;
   font-size: 13px;
 }

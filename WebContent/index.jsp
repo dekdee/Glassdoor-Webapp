@@ -7,7 +7,7 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-<title>Glassdoor – an inside look at jobs & companies</title>
+<title>Glassdoor: an inside look at jobs & companies</title>
 <!-- Meta -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -58,9 +58,12 @@
 		<header id="header" class="header">
 			<div class="container">
 				<h1 class="logo pull-left">
-					<a href="index.html"> <span class="logo-title">glassdoor</span>
+					<a href="index.html"> 
+						<img src = "assets/images/companies/glassdoor.png">
+						<span class="logo-title">glassdoor</span>
 					</a>
 				</h1>
+				
 				<!--//logo-->
 				<nav id="main-nav" class="main-nav navbar-right" role="navigation">
 					<div class="navbar-header">
@@ -105,7 +108,7 @@
 
 			<div class="signup">
 				<div class="container text-center">
-					<form class="signup-form">
+					<form class="signup-form" action = "jobs.jsp">
 						&nbsp;&nbsp;&nbsp;
 						<div class="row">
 						  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -130,13 +133,6 @@
 						  </div><!-- /.col-lg-4 -->
 						  
 						  </div><!-- /.row -->
-						  
-						  
-						 
-						
-						
-						
-						
 					</form>
 					<!--//signup-form-->	
 					
@@ -201,180 +197,224 @@
 				<p class="intro text-center">all posted anonymously by employees and job seekers</p>
 				
 				<ul class="nav nav-tabs" role="tablist">
-				  <li class="active"><a href="#Company Reviews">Company Reviews</a></li>
-				  <li><a href="#">Salaries</a></li>
-				  <li><a href="#">Interviews</a></li>
+				  <li class="active"><a href="#CompanyReviews" role="tab" data-toggle="tab">Company Reviews</a></li>
+				  <li><a href="#Salaries" role="tab" data-toggle="tab">Salaries</a></li>
+				  <li><a href="#Interviews" role="tab" data-toggle="tab">Interviews</a></li>
 				</ul>
 				
-				<div class="row" id = "Company Reviews">
-					<div class="benefits col-md-7 col-sm-6 col-xs-12">
-						<div class="item clearfix">
-							<div class="icon col-md-3 col-xs-12 text-center">
-								<i class="fa fa-paper-plane"></i>
+				<div class="tab-content">
+					<div class="tab-pane active" id = "CompanyReviews">
+						<div class="testimonials row col-lg-8">
+							
+							<div class="item col-lg-6">
+								<div class="quote-box">
+									<blockquote class="quote">
+									<div class="row">
+										<div class="col-lg-3"><img class="img-responsive" src="assets/images/companies/expedia.png" alt=""/></div>
+										<div class="col-lg-9 title">Expedia</div>
+									</div>
+									<a href="#">Excellent work environment and opportunity for GLOBAL advancement!</a><br/>
+									<b>Pros - </b>Training was comprehensive; excellent pay and benefits; many different opportunity areas for advancement. If you are...
+									</blockquote>
+									<!--//quote-->
+									<p class="details">
+										<span class="name">Sales Agent</span> <span class="title">reviewed 16 days ago</span>
+									</p>
+									<i class="fa fa-quote-right"></i>
+								</div>
+								<!--//quote-box-->
 							</div>
-							<!--//icon-->
-							<div class="content col-md-9 col-xs-12">
-								<h3 class="title">Brings you consectetuer adipiscing elit</h3>
-								<p class="desc">
-									State a benefit of your product/services here. You can change
-									the icon on the left to any of the 300+ <a
-										href="http://fortawesome.github.io/Font-Awesome/icons/"
-										target="_blank">FontAwsome icons</a> available. Maecenas
-									ultrices pellentesque nisi, eu volutpat nunc.
-								</p>
+							<!--//item-->
+							
+							<div class="item col-lg-6">
+								<div class="quote-box">
+									<blockquote class="quote">
+									<div class="row">
+										<div class="col-lg-3"><img class="img-responsive" src="assets/images/companies/morgan-stanley.png" alt=""/></div>
+										<div class="title">Morgan Stanley</div>
+									</div>
+									<a href="#">decent place to work</a><br/>
+									<b>Pros - </b>good experience for someone starting out in their career
+									</blockquote>
+									<!--//quote-->
+									<p class="details">
+										<span class="name">Employee</span> <span class="title">reviewed 12 days ago</span>
+									</p>
+									<i class="fa fa-quote-right"></i>
+								</div>
+								<!--//quote-box-->
 							</div>
-							<!--//content-->
+							<!--//item-->
+							 
 						</div>
-						<!--//item-->
-						<div class="item clearfix">
-							<div class="icon col-md-3  col-xs-12 text-center">
-								<i class="fa fa-cloud-upload"></i>
+						
+						<div class="testimonials row col-lg-8">
+							
+							<div class="item col-lg-6">
+								<div class="quote-box">
+									<blockquote class="quote">
+									<div class="row">
+										<div class="col-lg-3"><img class="img-responsive" src="assets/images/companies/juniper.png" alt=""/></div>
+										<div class="col-lg-9 title">Juniper Networks</div>
+									</div>
+									<a href="#">Great company, but stop the layoffs!!</a><br/>
+									<b>Pros - </b>Good company.. Good technology. Higher leadership team is doing a great job. The new CEO knows what hes doing. Great...
+									</blockquote>
+									<!--//quote-->
+									<p class="details">
+										<span class="name">Hardware Engineer</span> <span class="title">reviewed 19 days ago</span>
+									</p>
+									<i class="fa fa-quote-right"></i>
+								</div>
+								<!--//quote-box-->
 							</div>
-							<!--//icon-->
-							<div class="content col-md-9 col-xs-12">
-								<h3 class="title">No more velit tristique condimentum</h3>
-								<p class="desc">
-									State a benefit of your product/services here. You can change
-									the icon on the left to any of the 300+ <a
-										href="http://fortawesome.github.io/Font-Awesome/icons/"
-										target="_blank">FontAwsome icons</a> available. Maecenas
-									ultrices pellentesque nisi, eu volutpat nunc.
-								</p>
+							<!--//item-->
+							
+							<div class="item col-lg-6">
+								<div class="quote-box">
+									<blockquote class="quote">
+									<div class="row">
+										<div class="col-lg-3"><img class="img-responsive" src="assets/images/companies/vmware.png" alt=""/></div>
+										<div class="title">VMware</div>
+									</div>
+									<a href="#">Human Resources</a><br/>
+									<b>Pros - </b>Great team and work/life balance! Competitive compensation.
+									</blockquote>
+									<!--//quote-->
+									<p class="details">
+										<span class="name">Employee</span> <span class="title">reviewed 2 days ago</span>
+									</p>
+									<i class="fa fa-quote-right"></i>
+								</div>
+								<!--//quote-box-->
 							</div>
-							<!--//content-->
+							<!--//item-->
+							 
 						</div>
-						<!--//item-->
-						<div class="item clearfix">
-							<div class="icon col-md-3  col-xs-12 text-center">
-								<i class="fa fa-users"></i>
-							</div>
-							<!--//icon-->
-							<div class="content col-md-9 col-xs-12">
-								<h3 class="title">Connect lectus ultricies dolor vulputate</h3>
-								<p class="desc">
-									State a benefit of your product/services here. You can change
-									the icon on the left to any of the 300+ <a
-										href="http://fortawesome.github.io/Font-Awesome/icons/"
-										target="_blank">FontAwsome icons</a> available. Maecenas
-									ultrices pellentesque nisi, eu volutpat nunc.
-								</p>
-							</div>
-							<!--//content-->
-						</div>
-						<!--//item-->
-						<div class="item clearfix">
-							<div class="icon col-md-3  col-xs-12 text-center">
-								<i class="fa fa-dashboard"></i>
-							</div>
-							<!--//icon-->
-							<div class="content col-md-9 col-xs-12">
-								<h3 class="title">Liberate vulputate eleifend tellus</h3>
-								<p class="desc">
-									State a benefit of your product/services here. You can change
-									the icon on the left to any of the 300+ <a
-										href="http://fortawesome.github.io/Font-Awesome/icons/"
-										target="_blank">FontAwsome icons</a> available. Maecenas
-									ultrices pellentesque nisi, eu volutpat nunc. Cras pharetra
-									turpis pharetra iaculis euismod.
-								</p>
-							</div>
-							<!--//content-->
-						</div>
-						<!--//item-->
-						<div class="item last clearfix">
-							<div class="icon col-md-3  col-xs-12 text-center">
-								<i class="fa fa-history"></i>
-							</div>
-							<!--//icon-->
-							<div class="content col-md-9 col-xs-12">
-								<h3 class="title">Helps laoreet auctor libero</h3>
-								<p class="desc">
-									State a benefit of your product/services here. You can change
-									the icon on the left to any of the 300+ <a
-										href="http://fortawesome.github.io/Font-Awesome/icons/"
-										target="_blank">FontAwsome icons</a> available. Maecenas
-									ultrices pellentesque nisi, eu volutpat nunc. Pellentesque
-									fermentum purus nec mi vulputate interdum. Ut eu vulputate mi,
-									nec imperdiet enim. Ut faucibus faucibus turpis et luctus.
-									Quisque bibendum tristique purus eu pulvinar. Cras pharetra
-									turpis pharetra iaculis euismod. Nullam ac ullamcorper turpis,
-									quis tristique dui.
-								</p>
-							</div>
-							<!--//content-->
-						</div>
-						<!--//item-->
-						<div class="clearfix"></div>
-						<div class="text-center">
-							<a class="btn btn-cta btn-cta-secondary" href="tour.html">Learn
-								how it works</a>
-						</div>
+						
 					</div>
-					<div
-						class="testimonials col-md-4 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12 col-xs-offset-0">
-						<div class="item">
-							<div class="quote-box">
-								<blockquote class="quote">Love it! vehicula
-									consequat cursus. Morbi bibendum cursus urna, quis rhoncus
-									arcu. Curabitur vel sollicitudin leo.</blockquote>
-								<!--//quote-->
-								<p class="details">
-									<span class="name">Steven Turner</span> <span class="title">Bristol,
-										UK</span>
-								</p>
-								<i class="fa fa-quote-right"></i>
+					
+					<div class = "row tab-pane" id = "Salaries">
+					
+					<div class="benefits col-lg-8">
+						<div class="item clearfix">
+							<div class="panel panel-default">
+								<div class="panel-body row">
+									<div class="col-lg-1"><img class="img-responsive" src="assets/images/companies/ibm.png" alt=""/></div>
+									<div class="col-lg-9"><a href="#">IBM Advisory Software Engineer</a></div>
+								  	<div class="col-lg-2" style="text-align:right">$109,000</div>
+								</div>
 							</div>
-							<!--//quote-box-->
-							<div class="people text-center">
-								<img class="img-rounded user-pic"
-									src="assets/images/people/people-1.png" alt="">
+							<div class="panel panel-default">
+								<div class="panel-body row">
+									<div class="col-lg-10"><a href="#">GE Engineer</a></div>
+								  	<div class="col-lg-2" style="text-align:right">$69,000</div>
+								</div>
 							</div>
-							<!--//people-->
-						</div>
-						<!--//item-->
-						<div class="item">
-							<div class="quote-box">
-								<blockquote class="quote">Great vehicula consequat
-									cursus. Pellentesque eu, pretium quis, sem. Nulla consequat
-									massa quis enim!</blockquote>
-								<!--//quote-->
-								<p class="details">
-									<span class="name">Michelle Cheung</span> <span class="title">San
-										Francisco, US</span>
-								</p>
-								<i class="fa fa-quote-right"></i>
+							<div class="panel panel-default">
+								<div class="panel-body row">
+									<div class="col-lg-10"><a href="#">KPMG Audit Associate</a></div>
+								  	<div class="col-lg-2" style="text-align:right">$54,000</div>
+								</div>
 							</div>
-							<!--//quote-box-->
-							<div class="people text-center">
-								<img class="img-rounded user-pic"
-									src="assets/images/people/people-2.png" alt="">
+							<div class="panel panel-default">
+								<div class="panel-body row">
+									<div class="col-lg-10"><a href="#">Exxon Mobil Engineer</a></div>
+								  	<div class="col-lg-2" style="text-align:right">$97,000</div>
+								</div>
 							</div>
-							<!--//people-->
-						</div>
-						<!--//item-->
-						<div class="item last">
-							<div class="quote-box">
-								<blockquote class="quote">Excellent Vivamus sit
-									amet tortor id orci interdum tempor sed sit amet ante, pretium
-									quis, sem. Nulla consequat massa quis enim!</blockquote>
-								<!--//quote-->
-								<p class="details">
-									<span class="name">James Lee</span> <span class="title">London,
-										UK</span>
-								</p>
-								<i class="fa fa-quote-right"></i>
+							<div class="panel panel-default">
+								<div class="panel-body row">
+									<div class="col-lg-10"><a href="#">Capgemini Manager</a></div>
+								  	<div class="col-lg-2" style="text-align:right">$121,000</div>
+								</div>
 							</div>
-							<!--//quote-box-->
-							<div class="people text-center">
-								<img class="img-rounded user-pic"
-									src="assets/images/people/people-3.png" alt="">
+							<div class="panel panel-default">
+								<div class="panel-body row">
+									<div class="col-lg-10"><a href="#">Expedia Program Manager</a></div>
+								  	<div class="col-lg-2" style="text-align:right">$91,000</div>
+								</div>
 							</div>
-							<!--//people-->
-						</div>
-						<!--//item-->
+							
+					
+						
 					</div>
-				</div>
+					</div>
+					</div>
+				
+					<div class = "row tab-pane" id = "Interviews">
+						<div class="benefits col-lg-8">
+							<div class="item clearfix">
+								<div class="icon col-lg-2">
+									<img class="img-responsive" src="assets/images/companies/google.png" alt=""/>
+								</div>
+								<!--//icon-->
+								<div class="content col-lg-6">
+									<h3 class="title">Interviewing at Google</h3>
+									<p class="desc">
+										A classic Google process - two phone interviews, then five 1:1 on-site interviews...
+										<a href="#">Read Interview</a>
+									</p>
+								</div>
+								<div class="content col-lg-4">
+									<p class="desc">
+										<b>Interview Question:</b><br/>
+										All questions were from the expected area.<br/>
+										<a href="#">Answer This Question</a>
+									</p>
+								</div>
+								<!--//content-->
+							</div>
+							<!--//item-->
+							<div class="item clearfix">
+								<div class="icon col-lg-2">
+									<img class="img-responsive" src="assets/images/companies/pnc.png" alt=""/>
+								</div>
+								<!--//icon-->
+								<div class="content col-lg-6">
+									<h3 class="title">Interviewing at PNC Financial Services Group</h3>
+									<p class="desc">
+										Five interviews. Hiring and interview process was fairly easy. Very conversational...
+										<a href="#">Read Interview</a>
+									</p>
+								</div>
+								<div class="content col-lg-4">
+									<p class="desc">
+										<b>Interview Question:</b><br/>
+										No difficult or unexpected question.<br/>
+										<a href="#">Answer This Question</a>
+									</p>
+								</div>
+								<!--//content-->
+							</div>
+							<!--//item-->
+							<div class="item clearfix">
+								<div class="icon col-lg-2">
+									<img class="img-responsive" src="assets/images/companies/emc.png" alt=""/>
+								</div>
+								<!--//icon-->
+								<div class="content col-lg-6">
+									<h3 class="title">Interviewing at EMC</h3>
+									<p class="desc">
+										I was initially contacted by a third-party recruiter. He found my resume and profile...
+										<a href="#">Read Interview</a>
+									</p>
+								</div>
+								<div class="content col-lg-4">
+									<p class="desc">
+										<b>Interview Question:</b><br/>
+										I was handed a piece of paper with three...<br/>
+										<a href="#">Answer This Question</a>
+									</p>
+								</div>
+								<!--//content-->
+							</div>
+							<!--//item-->
+							
+							
+					</div>
 				<!--//row-->
+				</div>
 			</div>
 			<!--//container-->
 		</section>
@@ -652,25 +692,6 @@
 		</section>
 		<!--//faq-->
 
-		<!-- ******SIGNUP****** -->
-		<section id="signup" class="signup">
-			<div class="container text-center">
-				<h2 class="title">Ready to kickstart your business with Tempo?</h2>
-				<p class="summary">Sign up to try Tempo FREE for 30 days! No
-					credit card needed.</p>
-				<form class="signup-form">
-					<div class="form-group">
-						<input type="text" class="form-control"
-							placeholder="Enter your email address">
-					</div>
-					<button type="submit" class="btn btn-cta btn-cta-primary">SIGN
-						UP</button>
-				</form>
-				<!--//signup-form-->
-			</div>
-		</section>
-		<!--//signup-->
-
 	</div>
 	<!--//wrapper-->
 
@@ -682,16 +703,10 @@
 					<div class="footer-col col-md-5 col-sm-7 col-sm-12 about">
 						<div class="footer-col-inner">
 							<h3 class="title">About Us</h3>
-							<p>Maecenas ac vehicula velit, nec facilisis elit. Phasellus
-								non porttitor justo, eu bibendum elit. Maecenas pharetra non
-								ligula quis ultricies. Nulla varius vestibulum ligula quis
-								hendrerit. Maecenas et fermentum massa. Ut hendrerit, nulla
-								fringilla venenatis pulvinar, nisl est adipiscing nunc, quis
-								consequat mi mauris vel felis.</p>
-							<p>
-								<a class="more" href="#">Learn more <i
-									class="fa fa-long-arrow-right"></i></a>
-							</p>
+							<p>Glassdoor is your free inside look at jobs and companies. 
+							Salary details, company reviews, and interview questions &#8212; 
+							all posted anonymously by employees and job seekers.</p>
+							
 
 						</div>
 						<!--//footer-col-inner-->
@@ -699,16 +714,14 @@
 					<!--//foooter-col-->
 					<div class="footer-col col-md-3 col-sm-4 col-md-offset-1 links">
 						<div class="footer-col-inner">
-							<h3 class="title">Links</h3>
 							<ul class="list-unstyled">
-								<li><a href="#"><i class="fa fa-caret-right"></i>Knowledge
-										Base</a></li>
-								<li><a href="#"><i class="fa fa-caret-right"></i>Jobs</a></li>
-								<li><a href="#"><i class="fa fa-caret-right"></i>Press</a></li>
-								<li><a href="#"><i class="fa fa-caret-right"></i>Terms
-										of services</a></li>
-								<li><a href="#"><i class="fa fa-caret-right"></i>Privacy
-										Policy</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>Employers</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>Careers</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>API</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>Blog</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>Feedback</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>Help</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i>Post a Job</a></li>
 							</ul>
 						</div>
 						<!--//footer-col-inner-->
@@ -742,15 +755,9 @@
 			<div class="container">
 				<div class="row">
 					<small class="copyright col-md-6 col-sm-6 col-xs-12">Copyright
-						@ 2014 Tempo | Website template by <a href="#">3rd Wave Media</a>
+						@ 2014 Glassdoor Practicum Team
 					</small>
-					<ul class="social col-md-6 col-sm-6 col-xs-12 list-inline">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li class="last"><a href="#"><i class="fa fa-youtube"></i></a></li>
-					</ul>
-					<!--//social-->
+					
 				</div>
 				<!--//row-->
 			</div>
@@ -760,50 +767,7 @@
 	</footer>
 	<!--//footer-->
 
-	<!-- *****CONFIGURE STYLE****** -->
-	<div class="config-wrapper">
-		<div class="config-wrapper-inner">
-			<a id="config-trigger" class="config-trigger" href="#"><i
-				class="fa fa-cog"></i></a>
-			<div id="config-panel" class="config-panel">
-				<h5>Choose Colour</h5>
-				<ul id="color-options" class="list-unstyled list-inline">
-					<li class="theme-1 active"><a
-						data-style="assets/css/styles.css" href="#"></a></li>
-					<li class="theme-2"><a data-style="assets/css/styles-2.css"
-						href="#"></a></li>
-					<li class="theme-3"><a data-style="assets/css/styles-3.css"
-						href="#"></a></li>
-					<li class="theme-4"><a data-style="assets/css/styles-4.css"
-						href="#"></a></li>
-
-					<li class="theme-5"><a data-style="assets/css/styles-5.css"
-						href="#"></a></li>
-
-					<li class="theme-6"><a data-style="assets/css/styles-6.css"
-						href="#"></a></li>
-					<li class="theme-7"><a data-style="assets/css/styles-7.css"
-						href="#"></a></li>
-					<li class="theme-8"><a data-style="assets/css/styles-8.css"
-						href="#"></a></li>
-
-					<li class="theme-9"><a data-style="assets/css/styles-9.css"
-						href="#"></a></li>
-					<li class="theme-10"><a data-style="assets/css/styles-10.css"
-						href="#"></a></li>
-
-				</ul>
-				<!--//color-options-->
-				<a id="config-close" class="close" href="#"><i
-					class="fa fa-times-circle"></i></a>
-			</div>
-			<!--//configure-panel-->
-		</div>
-		<!--//config-wrapper-inner-->
-	</div>
-	<!--//config-wrapper-->
-
-	<!-- Javascript -->
+		<!-- Javascript -->
 	<script type="text/javascript"
 		src="assets/plugins/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"
